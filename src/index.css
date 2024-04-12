@@ -1,0 +1,36 @@
+.input-bx{
+  position: relative;
+  width: 300px;
+}
+.input-bx input{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #7f8fa6;
+  border-radius: 5px;
+  outline: none;
+ 
+  font-size: 1rem;
+ 
+}
+
+.input-bx span{
+  position: absolute;
+  left: 0;
+  top: -10px;
+  padding: 10px;
+  /* font-size: 1rem; */
+  color: #7f8fa6;
+  pointer-events: none;
+
+}
+
+.input-bx input ~ span{
+  color: #b99bfb;
+  /* font-size: 1rem; */
+  font-weight: 600;
+  padding: 0 10px;
+  background: #fff;
+  transform: translateX(10px) translateY(-4px);
+  
+}
+
